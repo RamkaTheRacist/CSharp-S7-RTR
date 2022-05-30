@@ -22,10 +22,10 @@ Console.WriteLine();
 }
 void ArithmeticMean(double[,] any, double[] array)
 {
-for(int i = 0; i < any.GetLength(0); i++)
+for(int i = 0; i < any.GetLength(1); i++)
 {
     double result = 0;
-    for(int j = 0; j < any.GetLength(1); j++)
+    for(int j = 0; j < any.GetLength(0); j++)
     {
         result = result + any[j, i];
     }
